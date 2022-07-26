@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getStart.GetMedicine">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:letterSpacing="0.02"
+            android:text="Choose Best\nConsultant Doctor"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:letterSpacing="0.02"
+            android:text="Find the best doctor consult &amp;specialist in your\n
+town city .Easy to callback"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="300dp"
+                android:src="@drawable/hmedicine"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textround"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="4dp"
+                >
+                <TextView
+                    android:layout_width="28dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/text_round"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/textround"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:elevation="4dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+            android:layout_marginTop="60dp"
+            android:textSize="16.8dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/text_round"/>
+    </LinearLayout>
+</RelativeLayout>
